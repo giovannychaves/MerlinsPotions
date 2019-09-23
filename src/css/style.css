@@ -43,6 +43,10 @@ img{
     color: rgb(221, 56, 44);
 }
 
+.header-logo p{
+    color: rgb(85, 51, 104);
+}
+
 .header-logo p::before, .header-logo p::after{
     content: ' ____ ';
     color: #bbb;
@@ -116,15 +120,54 @@ img{
     justify-content: space-between;
     background-color: rgb(85, 51, 104);
     color: white;
-    padding: 20px 50px;
+    padding: 25px 50px;
 }
 
-.menu-nav ul li{
+.menu-nav-ul li, .menu-nav-ul-login li, .menu-nav-ul-login p{
     display: inline-block;
 }
 
-.menu-nav ul li a{
+.menu-nav-ul-login p{
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.menu-nav-ul a, .menu-nav-ul-login a{
     color: white;
     padding: 10px;
     font-style: italic;
+}
+
+/* Main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.main h2{
+    margin-bottom: 100px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products-description{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.products-description p{
+    color: rgb(221, 56, 44);
+}
+
+.products-description strong{
+    color: black;
 }
