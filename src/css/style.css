@@ -1,11 +1,50 @@
 /* Geral */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+    text-decoration: none;
+    font-weight: none;
+}
+
 .container{
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
-/* img{
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125em;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header-logo{
+    text-align: center;
+}
+
+.header-title a{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: orangered;
+}
+
+.header-logo p::before, .header-logo p::after{
+    content: ' ____ ';
+    color: #bbb;
+    position: relative;
+    top: -8px;
+}
+
+img{
     width: 240px;
-} */
+}
 
