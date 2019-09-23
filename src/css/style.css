@@ -120,11 +120,17 @@ img{
     justify-content: space-between;
     background-color: rgb(85, 51, 104);
     color: white;
-    padding: 25px 50px;
+    padding: 25px 45px;
 }
 
 .menu-nav-ul li, .menu-nav-ul-login li, .menu-nav-ul-login p{
     display: inline-block;
+}
+
+.menu-nav-ul li:last-child a{
+    background-color: rgb(61, 35, 81);
+    border-radius: 5px;
+    padding: 15px;
 }
 
 .menu-nav-ul-login p{
@@ -163,7 +169,6 @@ img{
     margin-bottom: 100px;
 }
 
-
 .products-description p{
     color: rgb(221, 56, 44);
 }
@@ -171,3 +176,49 @@ img{
 .products-description strong{
     color: black;
 }
+
+/* Footer */
+
+/* Menu nav footer */
+
+.footer{
+    background-color: rgb(230, 230, 230);
+    padding: 50px 40px;
+}
+
+.footer-flex{
+    display: flex;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-right: 70px;
+   
+}
+
+.footer-menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-menu-nav li a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    margin-right: 25px;
+    color: rgb(221, 56, 44);
+}
+
+/* Social medias */
+
+.footer-social-medias ul{
+    display: flex;
+}
+
+.face{
+    background: url("src/img/social_media.png"); 
+}
+
+/* NewsLetter */
+
