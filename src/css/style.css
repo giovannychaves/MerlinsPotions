@@ -127,6 +127,12 @@ img{
     display: inline-block;
 }
 
+.menu-nav-ul svg{
+    width: 9px;
+    height: 9px;
+    margin-left: 5px;
+}
+
 .menu-nav-ul li:last-child a{
     background-color: rgb(61, 35, 81);
     border-radius: 5px;
@@ -214,12 +220,55 @@ img{
 
 .footer-social-medias ul{
     display: flex;
+    padding: 20px 0;
 }
 
-.face{
-    width: 33;
-    height: 33;
-    background: url("src/img/social_media.png"); 
+.footer-social-medias ul li{
+    padding-right: 35px;
+}
+
+.face::before{
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url("../img/social-media.png"); 
+}
+
+.twitter::before{
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-position-x: -70px;
+    background-image: url("../img/social-media.png"); 
+}
+
+.pinterest::before{
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-position-x: -135px;
+    background-image: url("../img/social-media.png"); 
+}
+
+.tumblr::before{
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-position-x: -200px;
+    background-image: url("../img/social-media.png"); 
+}
+
+.google::before{
+    content: '';
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-position-x: -265px;
+    background-image: url("../img/social-media.png"); 
 }
 
 /* NewsLetter */
@@ -227,7 +276,7 @@ img{
 .footer-newsletter{
     background-color: white;
     padding: 25px 15px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .footer-newsletter p{
