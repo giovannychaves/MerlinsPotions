@@ -19,7 +19,7 @@ body{
 }
 
 img{
-    width: 240px;
+    display: block;
 }
 
 /* Header */
@@ -167,6 +167,11 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.product img{
+    max-width: 240px;
+    width: 100%;
 }
 
 .products-description{
