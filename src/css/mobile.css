@@ -75,7 +75,7 @@
         padding: 20px 20px;
      }
 
-     .footer-menu-nav{
+     .footer-nav{
         display: none;
     }
 
@@ -89,9 +89,8 @@
         width: 100%;
     }
 
-    .footer-social-medias ul li{
-        display: flex;
-        justify-content: center;    
+    .footer-social-medias-mobile{
+        display: block;
     }
 
     .copyright{
@@ -139,5 +138,11 @@
     .products-description{
         font-size: 0.7em;
         margin-bottom: 50px;
+    }
+
+    /* Footer */
+
+    .footer-social-medias-mobile ul li{
+        padding-right: 20px;
     }
 }

@@ -234,16 +234,26 @@ img{
 
 /* Social medias */
 
+.footer-social-medias-mobile{
+    margin: 0 auto;
+    display: none;
+}
+
 .footer-social-medias ul{
     display: flex;
     padding: 20px 0;
+    margin: 0 auto;
 }
 
 .footer-social-medias ul li{
     padding-right: 35px;
 }
 
-.face::before{
+.footer-social-medias ul li:last-child{
+    padding-right: 0px;
+}
+
+.face{
     content: '';
     display: block;
     width: 34px;
@@ -251,7 +261,7 @@ img{
     background-image: url("../img/social-media.png"); 
 }
 
-.twitter::before{
+.twitter{
     content: '';
     display: block;
     width: 34px;
@@ -260,7 +270,7 @@ img{
     background-image: url("../img/social-media.png"); 
 }
 
-.pinterest::before{
+.pinterest{
     content: '';
     display: block;
     width: 34px;
@@ -269,7 +279,7 @@ img{
     background-image: url("../img/social-media.png"); 
 }
 
-.tumblr::before{
+.tumblr{
     content: '';
     display: block;
     width: 34px;
@@ -278,7 +288,7 @@ img{
     background-image: url("../img/social-media.png"); 
 }
 
-.google::before{
+.google{
     content: '';
     display: block;
     width: 34px;
