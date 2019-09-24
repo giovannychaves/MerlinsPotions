@@ -1,0 +1,27 @@
+{
+  "name": "merlins",
+  "version": "1.0.0",
+  "description": "tcc",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.4.1",
+    "sass": "^1.22.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannychaves/MerlinsPotions.git"
+  },
+  "author": "\"Giovanny Chaves]\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannychaves/MerlinsPotions/issues"
+  },
+  "homepage": "https://github.com/giovannychaves/MerlinsPotions#readme"
+}
