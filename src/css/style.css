@@ -25,6 +25,11 @@ img{
 /* Header */
 
 /* Logo */
+
+.icon-menu-mobile{
+    display: none;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -35,6 +40,8 @@ img{
 
 .header-logo{
     text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .header-title a{
@@ -152,6 +159,10 @@ img{
 
 /* Main */
 
+.free-shipping-mobile{
+    display: none;
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -205,7 +216,7 @@ img{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-right: 60px;
+    margin-right: 25px;
    
 }
 
@@ -293,7 +304,7 @@ img{
 }
 
 .footer-newsletter input{
-    width: 270px;
+    width: calc(70% - 5px);
     padding: 10px;
     outline: none;
     border: none;
@@ -302,7 +313,7 @@ img{
 }
 
 .footer-newsletter button{
-    width: 115px;
+    width: calc(30% - 5px);
     padding: 11px;
     outline: none;
     border: none;

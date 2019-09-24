@@ -1,5 +1,143 @@
 @media screen and (max-width: 930px){
-    body{
-        background-color: blue;
+   /* Header */
+   
+   .header{
+       margin-bottom: 0px;
+   }
+
+   /* Menu Mobile */
+   .icon-menu-mobile{
+        display: block;
+    }
+
+    .icon-menu-mobile svg{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Search and free shipping */
+
+   .header-search-article{
+       display: none;
+   }
+
+   .header-bag-free-shipping{
+       display: none;
+   }
+
+   /* Bag */
+
+   .header-bag-qtd{
+       flex-direction: column;
+   }
+
+   .header-bag-couldron{
+        margin: 0;
+    }
+
+    .header-bag-qtd{
+        font-size: 1em;
+    }
+
+    /* Menu-Nav */
+
+    .nav{
+        display: none;
+    }
+
+    /* Main */
+
+    .main{
+        margin-top: 5px;
+    }
+
+    .free-shipping-mobile{
+        display: block;
+        background-color: rgb(237, 238, 233);
+        text-align: center;
+        font-style: italic;
+        font-size: 1.4em;
+        padding: 5px;
+    }
+
+    .main h2{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+     /* Footer */
+
+     .footer{
+        padding: 20px 20px;
+     }
+
+     .footer-menu-nav{
+        display: none;
+    }
+
+    .footer-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-newsletter{
+        order: -1;
+        width: 100%;
+    }
+
+    .footer-social-medias ul li{
+        display: flex;
+        justify-content: center;    
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    /* Main */
+
+    .product img{
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .products-description{
+        font-size: 0.7em;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    /* Header */
+
+    .header{
+        align-items: center;
+    }
+
+    .header-logo p{
+        display: none;
+    }
+
+    .icon-menu-mobile svg{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-bag-qtd{
+        width: 65px;
+    }
+
+    /* Main */
+
+    .products-description{
+        font-size: 0.7em;
+        margin-bottom: 50px;
     }
 }
