@@ -24,9 +24,14 @@ img{
 
 /* Header */
 
+.menu-mobile{
+    position: fixed;
+    left: -1500px;
+}
+
 /* Logo */
 
-.icon-menu-mobile, .menu-mobile{
+.icon-menu-mobile{
     display: none;
 }
 

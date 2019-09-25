@@ -4,9 +4,27 @@ $roxo-claro: rgb(78, 50, 108);
 
 /* Header Menu mobile */
 
+.show-menu{
+    transition-property: left;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
+    left: 0px;
+}
+
+.close-menu{
+    transition-property: left;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    left: -1500px;
+}
+
 .menu-mobile{
-    display: block;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
 }
 
 .header-menu-mobile{
