@@ -111,6 +111,9 @@ img {
 .menu-nav-ul li, .menu-nav-ul-login li, .menu-nav-ul-login p {
   display: inline-block; }
 
+.menu-nav-ul li a:hover, .menu-nav-ul svg:hover, .menu-nav-ul-login li a:hover {
+  opacity: 0.8; }
+
 .menu-nav-ul svg {
   width: 9px;
   height: 9px;
