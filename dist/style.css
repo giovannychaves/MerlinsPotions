@@ -447,3 +447,41 @@ img {
   /* Footer */
   .footer-social-medias-mobile ul li {
     padding-right: 20px; } }
+
+/* Light box */
+.lightbox {
+  position: fixed;
+  display: flex;
+  background-color: blue;
+  width: 800px;
+  height: 550px;
+  top: 60px;
+  left: 275px;
+  padding: 50px;
+  z-index: 1; }
+
+/* Light box image */
+.potion-image {
+  background-color: white;
+  width: 60%; }
+
+/* Light box infos */
+.potion-infos {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+/* Light box btn */
+.btn-add-cart {
+  background-color: #da391c;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 1.0em;
+  color: white;
+  outline: none; }
+
+.btn-add-cart:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8); }
