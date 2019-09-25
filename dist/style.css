@@ -19,7 +19,7 @@ img {
 
 /* Header */
 /* Logo */
-.icon-menu-mobile {
+.icon-menu-mobile, .menu-mobile {
   display: none; }
 
 .header {
@@ -276,10 +276,61 @@ img {
   color: #777; }
 
 @media screen and (max-width: 930px) {
+  /* Colors */
+  /* Header Menu mobile */
+  .menu-mobile {
+    display: block;
+    padding: 20px; }
+  .header-menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  .header-menu-mobile-icon-close svg {
+    width: 25px;
+    height: 25px; }
+  .header-search {
+    display: flex; }
+  .header-search-svg {
+    top: 8px;
+    left: 7px; }
+  .header-search input {
+    width: 100%; }
+  /* Nav menu mobile */
+  .menu-mobile-container {
+    background-color: #4e326c; }
+  .menu-nav-mobile li {
+    padding: 10px;
+    padding-left: 55px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  .menu-nav-mobile li a {
+    font-style: italic;
+    color: white; }
+  .menu-nav-mobile li:nth-child(5) {
+    border: none; }
+  .menu-nav-mobile li:last-child {
+    background-color: #3d2351;
+    border: none; }
+  .menu-nav-mobile-login {
+    margin-top: 10px;
+    text-align: center; }
+  .menu-nav-mobile-login li {
+    display: inline-block;
+    padding: 15px; }
+  .menu-nav-mobile-login li a {
+    color: white;
+    font-style: italic; }
+  .menu-nav-mobile-login p {
+    display: inline-block;
+    color: white;
+    opacity: 0.5;
+    font-style: italic; }
   /* Header */
   .header {
-    margin-bottom: 0px; }
-  /* Menu Mobile */
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px; }
+  /* Icone Menu Mobile */
   .icon-menu-mobile {
     display: block; }
   .icon-menu-mobile svg {
@@ -302,7 +353,9 @@ img {
     display: none; }
   /* Main */
   .main {
-    margin-top: 5px; }
+    margin-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px; }
   .free-shipping-mobile {
     display: block;
     background-color: #edeee9;

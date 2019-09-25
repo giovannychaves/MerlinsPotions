@@ -1,0 +1,84 @@
+/* Colors */
+
+$roxo-claro: rgb(78, 50, 108);
+
+/* Header Menu mobile */
+
+.menu-mobile{
+    display: block;
+    padding: 20px;
+}
+
+.header-menu-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-menu-mobile-icon-close svg{
+    width: 25px;
+    height: 25px;
+}
+
+.header-search{
+    display: flex;
+}
+
+.header-search-svg{
+    top: 8px;
+    left: 7px;
+}
+
+.header-search input{
+    width: 100%;
+}
+
+/* Nav menu mobile */
+
+.menu-mobile-container{
+    background-color: $roxo-claro; 
+}
+
+.menu-nav-mobile li{
+    padding: 10px;
+    padding-left: 55px;
+    border-bottom: 1px solid rgba($color: white, $alpha: 0.3);
+}
+
+.menu-nav-mobile li a{
+    font-style: italic;
+    color: white;
+}
+
+.menu-nav-mobile li:nth-child(5){
+    border: none;
+}
+
+.menu-nav-mobile li:last-child{
+    background-color: rgb(61, 35, 81);
+    border: none;
+}
+
+.menu-nav-mobile-login{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-nav-mobile-login li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu-nav-mobile-login li a{
+    color: white;
+    font-style: italic;
+}
+
+.menu-nav-mobile-login p{
+    display: inline-block;
+    color: white;
+    opacity: 0.5;
+    font-style: italic;
+}
+
