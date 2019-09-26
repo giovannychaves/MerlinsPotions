@@ -22,8 +22,8 @@ Merlin's Potions
 ### Observações
 Features não efetuadas:
 
-Templates engine PUGJS, JSX e etc...
-Metodologias CSS como BEM CSS, SMACSS, ITCSS.
-Frameworks JS como React, Vue.js, Angular.
-SASS melhor, com mixins e variáveis.
-Babel.
+* Templates engine PUGJS, JSX e etc...
+* Metodologias CSS como BEM CSS, SMACSS, ITCSS.
+* Frameworks JS como React, Vue.js, Angular.
+* SASS melhor, com mixins e variáveis.
+* Babel.
