@@ -9,7 +9,11 @@
     "jquery": "^3.4.1",
     "sass": "^1.22.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "gulp-babel": "^8.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp"

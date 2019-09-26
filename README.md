@@ -26,4 +26,4 @@ Features não efetuadas:
 * Metodologias CSS como BEM CSS, SMACSS, ITCSS.
 * Frameworks JS como React, Vue.js, Angular.
 * SASS melhor, com mixins e variáveis.
-* Babel.
+* Compilação do EC6 com Babel para maior suporte, quebrou o lightbox.
