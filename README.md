@@ -1,30 +1,29 @@
 # Desafio Front-end
-Com este pequeno desafio vamos avaliar o seu conhecimento técnico para entender melhor como você trabalha com o seu código, então mostre o seu melhor.
 
 ## A missão:
-Sua missão é criar a página abaixo:
+Missão era criar a página:
 
-![Merlins Potions Layout](src/assets/images/potions-layout.png)
+Merlin's Potions
 
-### O que esperamos:
-* Utilização de `Javascript` puro ou alguma biblioteca como `JQuery` e etc.
+### O que encontrarão:
+* Utilização de `Javascript` puro.
 * Um `HTML` escrito da maneira mais semântica possível.
-* `CSS` Com algum pré-processador de sua escolha (aqui utilizamos `SASS`).
+* `CSS` com `SASS`.
 * Um layout responsivo e com boa aparencia.
-
-### Seria legal encontrar:
-* Utilização de gerenciadores de dependencias `npm`, `bower`, `yarn`.
-* Automação de tasks com `gulp` ou `webpack`.
-* Templates engine `PUGJS`, `JSX` e etc...
-* Metodologias CSS como `BEM CSS`, `SMACSS`, `ITCSS`.
-* Frameworks JS como `React`, `Vue.js`, `Angular`.
+* Utilização do gerenciador de dependencias `npm`.
+* Automação de tasks com `gulp`.
 * Otimizado para SEO e performance.
 * ES6 e Modularização de `Javascript`.
-* Buscar os dados da API fake [potions.json](https://cdn.rawgit.com/LucasRuy/1d4a5d45e2ea204d712d0b324af28bab/raw/342e0e9277be486102543c7f50ef5fcf193234b6/potions.json) e montar os lightbox a partir das infos contidos no mesmo.
+* Dados da API fake [potions.json](https://cdn.rawgit.com/LucasRuy/1d4a5d45e2ea204d712d0b324af28bab/raw/342e0e9277be486102543c7f50ef5fcf193234b6/potions.json) no lightbox.
 
-### O que não esperamos:
+### O que não encontrarão:
 * Frameworks para CSS como `Bootstrap`, `Foundation` e etc...
 
 ### Observações
-* Lembrando que não é obrigatório aplicar todos os items descritos acima, não deixe de enviar o resultado do seu teste.
-* Todos os arquivos necessários para iniciar o desenvolvimento estão inclusos na pasta `src`.
+Features não efetuadas:
+
+Templates engine PUGJS, JSX e etc...
+Metodologias CSS como BEM CSS, SMACSS, ITCSS.
+Frameworks JS como React, Vue.js, Angular.
+SASS melhor, com mixins e variáveis.
+Babel.
