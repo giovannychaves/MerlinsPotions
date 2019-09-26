@@ -41,7 +41,8 @@ img {
 .header-title a {
   font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
-  color: #dd382c; }
+  color: #dd382c;
+  font-weight: normal; }
 
 .header-logo p {
   color: #553368; }

@@ -13,10 +13,10 @@ var btnClose = document.getElementsByClassName("close")[0];
 function loadText() {
   var xhr = new XMLHttpRequest();
 
-  xhr.onreadystatechange = function () {
+  xhr.onload = function () {
     if (this.readyState = 4 && this.status == 200) {
-      var data = JSON.parse(this.responseText); // console.log(data);
-
+      var data = JSON.parse(this.responseText);
+      console.log(data);
       showTxt(data);
     }
   };
