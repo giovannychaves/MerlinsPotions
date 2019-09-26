@@ -212,7 +212,7 @@ img {
   display: block;
   width: 34px;
   height: 34px;
-  background-image: url("../src/img/social-media.png"); }
+  background-image: url("../../src/img/social-media.png"); }
 
 .twitter {
   content: '';
@@ -220,7 +220,7 @@ img {
   width: 34px;
   height: 34px;
   background-position-x: -70px;
-  background-image: url("../src/img/social-media.png"); }
+  background-image: url("../../src/img/social-media.png"); }
 
 .pinterest {
   content: '';
@@ -228,7 +228,7 @@ img {
   width: 34px;
   height: 34px;
   background-position-x: -135px;
-  background-image: url("../src/img/social-media.png"); }
+  background-image: url("../../src/img/social-media.png"); }
 
 .tumblr {
   content: '';
@@ -236,7 +236,7 @@ img {
   width: 34px;
   height: 34px;
   background-position-x: -200px;
-  background-image: url("../src/img/social-media.png"); }
+  background-image: url("../../src/img/social-media.png"); }
 
 .google {
   content: '';
@@ -244,7 +244,7 @@ img {
   width: 34px;
   height: 34px;
   background-position-x: -265px;
-  background-image: url("../src/img/social-media.png"); }
+  background-image: url("../../src/img/social-media.png"); }
 
 /* NewsLetter */
 .footer-newsletter {
