@@ -4,7 +4,6 @@ function closeMenu(){
     btnclose.addEventListener('click', function(){
         document.querySelector('.menu-mobile').classList.add('close-menu');
         document.querySelector('.menu-mobile').classList.remove('show-menu');
-        document.querySelector('.header-logo p').style.display='block';
     });
 
 };
