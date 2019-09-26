@@ -3,8 +3,7 @@
 ## A missão:
 Missão era criar a página:
 
-Merlin's Potions
-Uma página de produtos de E-commerce com um layout responsivo para mobile com menu hamburguer funcional e quando clicado em algum produto mostre um LightBox (modal, pop up) com as informações vindas de uma API fake. 
+Merlin's Potions, uma página de produtos de E-commerce com um layout responsivo para mobile com menu hamburguer funcional e quando clicado em algum produto mostre um LightBox (modal, pop up) com as informações vindas de uma API fake. 
 
 
 ### O que encontrarão:
